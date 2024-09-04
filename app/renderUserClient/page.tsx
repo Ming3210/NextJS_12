@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 
 // Render dữ liệu useClient
-export default function page() {
+export default function Page() {
   const [user, setUser] = useState([]);
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
