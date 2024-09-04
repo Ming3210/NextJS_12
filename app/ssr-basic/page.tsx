@@ -1,6 +1,6 @@
 import React from "react";
 
-export default async function page() {
+export default async function Page() {
   let data: any = await fetchData();
   
   console.log(1111, data);
